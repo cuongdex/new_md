@@ -3,8 +3,8 @@ import json
 from PIL import Image
 
 # Đường dẫn tới thư mục chứa ảnh
-image_dir = './images'
-output_json = './captions.json'
+image_dir = './new'
+output_json = './new.json'
 
 # Thay đổi các thông tin này theo dữ liệu của bạn
 info = {
@@ -42,7 +42,7 @@ descriptions = {
 }
 
 for filename in os.listdir(image_dir):
-    if filename.endswith('.jpg') or filename.endswith('.png'):
+    if filename.endswith('.jpg') or filename.endswith('.png') or filename.endswith('.jpeg'):
         image_path = os.path.join(image_dir, filename)
         with Image.open(image_path) as img:
             width, height = img.size
