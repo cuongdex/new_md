@@ -1,56 +1,298 @@
 {
+    "info": {
+        "description": "Dataset description",
+        "version": "1.0",
+        "year": 2024
+    },
+    "licenses": [
+        {
+            "id": 1,
+            "name": "License name",
+            "url": "http://license.url"
+        }
+    ],
     "images": [
         {
+            "id": 1,
             "file_name": "1.jpg",
-            "caption": "cuong"
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 1"
         },
         {
-            "file_name": "2.jpg",
-            "caption": "cuong"
-        },
-        {
-            "file_name": "3.jpg",
-            "caption": "cuong"
-        },
-        {
-            "file_name": "4.jpg",
-            "caption": "cuong"
-        },
-        {
-            "file_name": "5.jpg",
-            "caption": "cuong"
-        },
-        {
-            "file_name": "6.jpg",
-            "caption": "cuong"
-        },
-        {
-            "file_name": "7.jpg",
-            "caption": "cuong"
-        },
-        {
-            "file_name": "8.jpg",
-            "caption": "cuong"
-        },
-        {
+            "id": 2,
             "file_name": "100.jpg",
-            "caption": "a man smiling"
+            "height": 1280,
+            "width": 962,
+            "description": "cuong smile"
         },
         {
+            "id": 3,
             "file_name": "101.jpg",
-            "caption": "a man smiling"
+            "height": 1280,
+            "width": 962,
+            "description": "cuong smile"
         },
         {
+            "id": 4,
             "file_name": "102.jpg",
-            "caption": "a man smiling"
+            "height": 1280,
+            "width": 962,
+            "description": "cuong smile"
         },
         {
+            "id": 5,
             "file_name": "103.jpg",
-            "caption": "a man smiling"
+            "height": 1280,
+            "width": 962,
+            "description": "cuong smile"
         },
         {
+            "id": 6,
             "file_name": "104.jpg",
-            "caption": "a man smiling"
+            "height": 1280,
+            "width": 962,
+            "description": "cuong smile"
+        },
+        {
+            "id": 7,
+            "file_name": "2.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 2"
+        },
+        {
+            "id": 8,
+            "file_name": "3.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 3"
+        },
+        {
+            "id": 9,
+            "file_name": "4.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 4"
+        },
+        {
+            "id": 10,
+            "file_name": "5.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 5"
+        },
+        {
+            "id": 11,
+            "file_name": "6.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 6"
+        },
+        {
+            "id": 12,
+            "file_name": "7.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 7"
+        },
+        {
+            "id": 13,
+            "file_name": "8.jpg",
+            "height": 1280,
+            "width": 962,
+            "description": "cuong 8"
+        }
+    ],
+    "annotations": [
+        {
+            "id": 1,
+            "image_id": 1,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 1"
+        },
+        {
+            "id": 2,
+            "image_id": 2,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong smile"
+        },
+        {
+            "id": 3,
+            "image_id": 3,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong smile"
+        },
+        {
+            "id": 4,
+            "image_id": 4,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong smile"
+        },
+        {
+            "id": 5,
+            "image_id": 5,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong smile"
+        },
+        {
+            "id": 6,
+            "image_id": 6,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong smile"
+        },
+        {
+            "id": 7,
+            "image_id": 7,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 2"
+        },
+        {
+            "id": 8,
+            "image_id": 8,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 3"
+        },
+        {
+            "id": 9,
+            "image_id": 9,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 4"
+        },
+        {
+            "id": 10,
+            "image_id": 10,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 5"
+        },
+        {
+            "id": 11,
+            "image_id": 11,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 6"
+        },
+        {
+            "id": 12,
+            "image_id": 12,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 7"
+        },
+        {
+            "id": 13,
+            "image_id": 13,
+            "category_id": 1,
+            "bbox": [
+                50,
+                50,
+                100,
+                150
+            ],
+            "area": 15000,
+            "iscrowd": 0,
+            "caption": "cuong 8"
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "name": "category_name",
+            "supercategory": "supercategory_name"
         }
     ]
 }
