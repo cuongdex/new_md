@@ -24,14 +24,14 @@
             "file_name": "2.jpg",
             "height": 346,
             "width": 346,
-            "description": "Mr.Anh"
+            "description": "Mr.Dao"
         },
         {
             "id": 3,
             "file_name": "3.jpg",
             "height": 346,
             "width": 345,
-            "description": "Mr.Dao"
+            "description": "Mr.Anh"
         }
     ],
     "annotations": [
