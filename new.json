@@ -17,21 +17,21 @@
             "file_name": "1.jpeg",
             "height": 2129,
             "width": 1600,
-            "description": "Cường"
+            "description": "Mr.Cuong"
         },
         {
             "id": 2,
             "file_name": "2.jpg",
             "height": 346,
             "width": 346,
-            "description": "Thầy thái anh"
+            "description": "Mr.Anh"
         },
         {
             "id": 3,
             "file_name": "3.jpg",
             "height": 346,
             "width": 345,
-            "description": "Thầy Đạo"
+            "description": "Mr.Dao"
         }
     ],
     "annotations": [
@@ -47,7 +47,7 @@
             ],
             "area": 15000,
             "iscrowd": 0,
-            "caption": "Cường"
+            "caption": "Mr.Cuong"
         },
         {
             "id": 2,
@@ -61,7 +61,7 @@
             ],
             "area": 15000,
             "iscrowd": 0,
-            "caption": "Thầy thái anh"
+            "caption": "mr.Dao"
         },
         {
             "id": 3,
@@ -75,7 +75,7 @@
             ],
             "area": 15000,
             "iscrowd": 0,
-            "caption": "Thầy Đạo"
+            "caption": "Mr.Anh"
         }
     ],
     "categories": [
